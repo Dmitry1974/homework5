@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: helveticaneuecyr;
+}
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+.main_menu {
+    text-align: right;
+    display: block;
+}
+.menu {
+    width: 100%;
+    height: 35px;
+    background-color: #085495;
+}
+.menu ul {
+    /*padding: -1em 0;*/
+}
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+.menu a {
+    display: block;
+    color: #60b5ed;
+    padding: 9px 5px;
+    }
+.menu a:hover {
+    background-color: #4eabda;
+    color: #fff;
+}
+.menu li.bord {
+    border-right: 1px solid #ffffff;
+    padding-right: 20px;
+}
+.menu li.flag
+{
+    margin-left: 40px;
+        }
+.menu li.flag a {
+    color: #ffffff;
+}
+.flag:before {
+    background: url("../img/homework5_0001_inventicons-29.png") no-repeat top center;
+    content: " ";
+    width:25px;
+    height: 27px;
+    margin-top: 5px;
+    display: block;
+    position: absolute;
+    left: -37px;
+    top:0;
+
+}
+.right {
+    background: linear-gradient(to top, #2e7ac4, #51b1dc);
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+.right a {
+    color: #ffffff;
+    border: 1px solid #60b5ed;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content {
+    background: url("../img/background.jpg") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height:1024px;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+fieldset {
+    border: none;
+    text-align: center;
+}
+.form {
+    /*margin-top: 305px;
+    margin-left: 280px;*/
+    position: absolute;
+    width: 560px;
+    height: 610px;
+    top: 510px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+.h2_form {
+    display: block;
+    font-size: 24pt;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #ffffff;
+}
+.facebook:before {
+    background: url("../img/homework5_0000s_0018_Layer-3face.png") no-repeat top center;
+    content: " ";
+    width:38px;
+    height: 35px;
+    margin-top: -11px;
+    display: block;
+    position: absolute;
+    z-index: 100;
+}
+.facebook:after {
+    background: url("../img/homework5_strelka.png") no-repeat top center;
+    content: "";
+    width:38px;
+    height: 35px;
+    margin-top: -14px;
+    display: block;
+    position: absolute;
+    z-index: 100;
+    left: 360px;
+}
+.facebook {
+    background: linear-gradient(to top, #314373, #3d5699);
+    width: 278px;
+    display:inline-block;
+    height: 36px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    border-top: 1px solid #758ab9;
+    color: white;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.facebook:hover
+{
+    background: linear-gradient(to top, #3d5699, #314373 );
+    transition: all 0.3s;
+}
+.line {
+    display: block;
+    margin: 0 auto;
+}
+.horizontal-line
+{
+    position: relative;
+    color: #999999;
+}
+.horizontal-line:before
+{
+    content: " ";
+    width:120px;
+    height:1px;
+    display: block;
+    border-top:1px solid #666;
+    border-bottom:1px solid #000;
+    background: #666;
+    position: absolute;
+    margin-top:50%;
+    top:-5px;
+    left: -125px;
+}
+.horizontal-line:after
+{
+    content: " ";
+    width:120px;
+    height:1px;
+    display: block;
+    border-top:1px solid #666;
+    border-bottom:1px solid #000;
+    background: #666;
+    position: absolute;
+    margin-top:50%;
+    top:-5px;
+    left: 27px;}
+.horizontal-line:after
+{
+    /*left:auto;*/
+    /*right:-170px;*/
+}
+.form-control:before, .form-control:after
+{
+    clear: both;
+    display: inline-table;
+    content:" ";
+}
+.textfild {
+    display: block;
+    width: 276px;
+    height: 36px;
+    background-color:#000;
+    border-radius: 5px;
+    margin: 0px auto -28px auto;
+    border: none;
+    border-bottom: 1px solid #4a4a48;
+    color: #fff;
+}
+.textfild:hover {
+    background-color: #1b5288;
+    color: #fff;
+    border: 1px solid #699bcc;
+    box-shadow: 0px 0px 10px rgba(140,201,245,0.8);
+    box-shadow: -1px -1px 10px rgba(140,201,245,0.8);
+}
+.textfild:focus {
+    background-color: #1b5288;
+    color: #fff;
+    border: 1px solid #699bcc;
+    box-shadow: 0px 0px 10px rgba(140,201,245,0.8);
+    box-shadow: -1px -1px 10px rgba(140,201,245,0.8);
+}
+label {
+    font-size: 10pt;
+    font-weight: inherit;
+    color: #999999;
+}
+.check {
+    margin-top: 38px;
+    margin-left: -50px;
+
+}
+.submit {
+    background: linear-gradient(to top, #2e7ac4, #4ba7d8);
+    width: 150px;
+    display:inline-block;
+    height: 36px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    border: none;
+    border-top: 1px solid #758ab9;
+    color: white;
+}
+.submit:hover {
+    background: linear-gradient(to top, #4ba7d8, #2e7ac4);
+}
+.form-text {
+    display: block;
+    margin-top: -25px;
+    color: #999;
+    font-size: 8pt;
+}
